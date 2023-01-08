@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 // replace with localhost 
-const API = axios.create({ baseURL: 'http://localhost:5000'}); //'https://memories-app-gdmk-d821-main-7ebk6ir5ca-wm.a.run.app' });
+const API = axios.create({ baseURL: 'https://dogstagram-api.onrender.com' }); //'http://localhost:5000'}); //'https://memories-app-gdmk-d821-main-7ebk6ir5ca-wm.a.run.app' });
 
 // authorization to apply middleware
 // send token to backend middleware
